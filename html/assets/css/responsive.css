@@ -1,0 +1,357 @@
+﻿@media (max-width: 1199.98px) {
+
+    /*--------------------------------------------------------------
+    # HEADER
+    --------------------------------------------------------------*/
+    /* Header Default */
+    #header.header-scrolled #logo .logo-dark {
+        max-height: unset;
+    }
+
+    #header.header-scrolled #mobile-nav-toggle i {
+        color: #212529;
+    }
+
+    /* Header Standard Background */
+    #header.bg-header.header-scrolled #mobile-nav-toggle i {
+        color: #fff;
+    }
+
+    /* Navigation Menu */
+    #header.menu-logo-center .logo-menu-box .logo-box #logo {
+        margin-right: 1.5rem;
+        margin-left: 0;
+    }
+
+    #header.menu-logo-center .logo-menu-box .logo-box {
+        width: auto;
+    }
+
+    #nav-menu-container {
+        display: none;
+    }
+
+    .menu-logo-center #nav-menu-container .nav-menu.nav-menu-right,
+    .menu-logo-center #nav-menu-container .nav-menu.nav-menu-left {
+        display: none;
+    }
+
+    #mobile-nav-toggle {
+        display: inline-block;
+    }
+
+    #mobile-nav .logo-box {
+        display: none;
+    }
+    /*--------------------------------------------------------------
+    # HEADER
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # INTRO
+    --------------------------------------------------------------*/
+    #intro.intro-search-box .carousel-control-prev,
+    #intro.intro-search-box .carousel-control-next {
+        display: none;
+    }
+    /*--------------------------------------------------------------
+    # INTRO
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # CHECK ROOM
+    --------------------------------------------------------------*/
+    .search-check-room .check-room-box {
+        width: 100%;
+    }
+    /*--------------------------------------------------------------
+    # CHECK ROOM
+    --------------------------------------------------------------*/
+}
+
+@media (max-width: 991.98px) {
+    /*--------------------------------------------------------------
+    # BACKGROUND IMAGE
+    --------------------------------------------------------------*/
+    .bg-image-wrapper.bg-image-full {
+        background-size: cover !important;
+    }
+    /*--------------------------------------------------------------
+    # BACKGROUND IMAGE
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # TITLE PAGE
+    --------------------------------------------------------------*/
+    .title-box.title-box-breadcrumb-right {
+        display: block;
+    }
+
+        .title-box.title-box-breadcrumb-right .heading {
+            margin-right: unset;
+            margin-bottom: unset;
+        }
+
+        .title-box.title-box-breadcrumb-right nav {
+            padding-top: unset;
+        }
+
+    .title-box.title-box-small.title-box-breadcrumb-right nav {
+        padding-top: unset;
+    }
+    /*--------------------------------------------------------------
+    # TITLE PAGE
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # INTRO
+    --------------------------------------------------------------*/
+    #intro .carousel-container.content-left .carousel-content {
+        text-align: left;
+        margin-top: 3.5rem;
+    }
+
+    #intro h2.title {
+        font-size: 2.35rem;
+    }
+
+    #intro p.desc {
+        font-size: 1.15rem;
+    }
+
+    #intro.intro-header-standard,
+    #intro.intro-header-standard .intro-container {
+        height: auto;
+    }
+
+    #intro h2, #intro h1 {
+        font-size: 2.85rem;
+    }
+    /*--------------------------------------------------------------
+    # INTRO
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # CHECK ROOM
+    --------------------------------------------------------------*/
+    .search-check-room .check-room-box {
+        background: unset;
+        padding: 1rem .25rem 0.15rem .25rem;
+    }
+
+    .search-check-room.check-room-absolute {
+        position: unset;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+    /*--------------------------------------------------------------
+    # CHECK ROOM
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # GALLERY
+    --------------------------------------------------------------*/
+    .grid-box.grid-5-col .grid-sizer,
+    .grid-box.grid-5-col .grid-item {
+        width: 33.333333%;
+    }
+    /*--------------------------------------------------------------
+    # GALLERY
+    --------------------------------------------------------------*/
+}
+
+@media (max-width: 767.98px) {
+
+    /*--------------------------------------------------------------
+    # BACKGROUND IMAGE
+    --------------------------------------------------------------*/
+    .bg-map {
+        background: none !important;
+    }
+    /*--------------------------------------------------------------
+    # BACKGROUND IMAGE
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # INTRO
+    --------------------------------------------------------------*/
+    #intro .carousel-control-prev,
+    #intro .carousel-control-next {
+        display: none;
+    }
+
+    #intro h2, #intro h1 {
+        font-size: 2.25rem;
+    }
+    /*--------------------------------------------------------------
+    # INTRO
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # BANNER HOVER
+    --------------------------------------------------------------*/
+    .bn-hover.bn-hover-ratih .bn-hover-container .bn-hover-caption-container {
+        position: unset;
+        padding: 2rem;
+        background: var(--bs-lighter-primary);
+        transition: all 0.35s ease-in-out;
+        top: unset;
+        bottom: unset;
+        width: 100%;
+    }
+
+    .bn-hover.bn-hover-ratih .bn-hover-container .bn-hover-image {
+        margin-left: unset;
+    }
+
+    .bn-hover.bn-hover-ratih.bn-hover-ratih-image-left .bn-hover-container .bn-hover-image {
+        margin-right: unset;
+    }
+    /*--------------------------------------------------------------
+    # BANNER HOVER
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # GALLERY
+    --------------------------------------------------------------*/
+    .grid-box.grid-5-col .grid-sizer,
+    .grid-box.grid-5-col .grid-item {
+        width: 50%;
+    }
+    /*--------------------------------------------------------------
+    # GALLERY
+    --------------------------------------------------------------*/
+}
+
+@media (max-width: 575.98px) {
+    /*--------------------------------------------------------------
+    # HEADER
+    --------------------------------------------------------------*/
+    #header {
+        padding: 20px 0;
+    }
+
+        #header #logo img {
+            height: 50px;
+        }
+    /*--------------------------------------------------------------
+    # HEADER
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # CHECK ROOM
+    --------------------------------------------------------------*/
+    .search-check-room.check-room-absolute {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    /*--------------------------------------------------------------
+    # CHECK ROOM
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # GO TO TOP
+    --------------------------------------------------------------*/
+    .back-to-top {
+        bottom: 15px;
+    }
+    /*--------------------------------------------------------------
+    # GO TO TOP
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # BREADCUMB
+    --------------------------------------------------------------*/
+    .breadcrumb {
+        display: none
+    }
+    /*--------------------------------------------------------------
+    # BREADCUMB
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # COUNTER
+    --------------------------------------------------------------*/
+    .countdown-box timer .timer-box,
+    .countdown-box.countdown-md timer .timer-box,
+    .countdown-box.countdown-lg timer .timer-box {
+        margin-right: 0.5rem;
+        padding: 0.25rem 0.5rem;
+        text-align: center;
+        width: 68px;
+    }
+
+        .countdown-box.countdown-md timer .timer-box strong,
+        .countdown-box.countdown-lg timer .timer-box strong {
+            font-size: 1.25rem;
+        }
+
+        .countdown-box.countdown-md timer .timer-box span,
+        .countdown-box.countdown-lg timer .timer-box span {
+            font-size: .55rem;
+        }
+    /*--------------------------------------------------------------
+    # COUNTER
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # PROCESS STEP
+    --------------------------------------------------------------*/
+    .ps-horizontal ul li .ps-item .ps-desc-box {
+        display: none;
+    }
+    /*--------------------------------------------------------------
+    # PROCESS STEP
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # TEAM BOX
+    --------------------------------------------------------------*/
+    .team-box.team-box-img-left img {
+        border-bottom-left-radius: 0 !important;
+        border-top-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        border-top-right-radius: 0 !important;
+    }
+    /*--------------------------------------------------------------
+    # TEAM BOX
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # BANNER LINKS
+    --------------------------------------------------------------*/
+    .card-heading .card-img-overlay {
+        position: unset;
+    }
+
+    .card-heading .card-img {
+        display: none;
+    }
+    /*--------------------------------------------------------------
+    # BANNER LINKS
+    --------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------
+    # PAGING
+    --------------------------------------------------------------*/
+    .pagination:not(.page-load-more):not(.page-next-back) .page-item:not(.active):not(.next):not(.first):not(.last):not(.prev) {
+        display: none;
+    }
+    /*--------------------------------------------------------------
+    # PAGING
+    --------------------------------------------------------------*/
+}
+
+@media (min-width: 1200px) {
+
+    /*--------------------------------------------------------------
+    # INTRO
+    --------------------------------------------------------------*/
+    #intro .carousel-control-prev,
+    #intro .carousel-control-next {
+        width: 5%;
+    }
+    /*--------------------------------------------------------------
+    # INTRO
+    --------------------------------------------------------------*/
+}
