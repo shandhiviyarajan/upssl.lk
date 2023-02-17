@@ -64,31 +64,31 @@
                 <!-- Main Menu -->
                 <nav id="nav-menu-container">
                     <ul class="nav-menu nav-menu-landing-page">
-                        <li class="menu-has-children menu-active">
-                            <a href="/">Home</a>
+                        <li class="menu-has-children">
+                            <a name="home" href="/">Home</a>
                         </li>
                         <li class="menu-has-children">
-                            <a href="/about">About Us</a>
+                            <a name="about" href="/about">About Us</a>
                         </li>
                         <li>
-                            <a href="/committee">Committee</a>
+                            <a name="committee" href="/committee">Committee</a>
                         </li>
                         <li class="menu-has-children">
-                            <a href="/activities">Activities</a>
+                            <a name="activities" href="/activities">Activities</a>
                             <ul class="sf-mega">
-                                <li><a href="/activities/all">All Events</a></li>
+                                <li><a name="all" href="/all">All Events</a></li>
                                 <li>
-                                    <a href="#">
+                                    <a name="exhibitions" href="#">
                                         Exhibitions
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a name="photo-tour" href="#">
                                         Photo Tour
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a name="education" href="#">
                                         Education
                                     </a>
                                 </li>
@@ -389,7 +389,7 @@
                                         <img src="public/img/thumbs/1.jpg" srcset="public/img/thumbs/1.jpg 2x" alt="">
                                         <span class="bg-banner-overlay"></span>
                                         <span class="price-box">
-                                           <span class="fs-18">29 - Nov - 2022</span>
+                                           <span class="fs-18"></span>
                                         </span>
                                         <div class="bn-hover-caption-container">
                                             <div class="bn-hover-caption">
@@ -419,7 +419,7 @@
                                         <img src="public/img/thumbs/2.jpg" srcset="public/img/thumbs/2.jpg 2x" alt="">
                                         <span class="bg-banner-overlay"></span>
                                         <span class="price-box">
-                                            <strong class="fw-bold-2"></strong> <span class="fs-18">/ </span>
+                                            <strong class="fw-bold-2"></strong> <span class="fs-18"></span>
                                         </span>
                                         <div class="bn-hover-caption-container">
                                             <div class="bn-hover-caption">
@@ -431,7 +431,7 @@
                                                     &nbsp;
                                                 </p>
                                                 <div class="bn-hover-detail">
-                                                    <a href="single-room-1.html" class="btn btn-lg btn-primary fs-22">
+                                                    <a href="/" class="btn btn-lg btn-primary fs-22">
                                                         <span>Details</span>
                                                         <i class="las la-arrow-right"></i>
                                                     </a>
@@ -449,7 +449,7 @@
                                         <img src="public/img/thumbs/3.jpg" srcset="public/img/thumbs/3.jpg 2x" alt="">
                                         <span class="bg-banner-overlay"></span>
                                         <span class="price-box">
-                                            <strong class="fw-bold-2"></strong> <span class="fs-18">/ </span>
+                                            <strong class="fw-bold-2"></strong> <span class="fs-18"></span>
                                         </span>
                                         <div class="bn-hover-caption-container">
                                             <div class="bn-hover-caption">
@@ -460,7 +460,7 @@
                                                &nbsp;
                                                 </p>
                                                 <div class="bn-hover-detail">
-                                                    <a href="single-room-1.html" class="btn btn-lg btn-primary fs-22">
+                                                    <a href="/" class="btn btn-lg btn-primary fs-22">
                                                         <span>Details</span>
                                                         <i class="las la-arrow-right"></i>
                                                     </a>
@@ -475,10 +475,10 @@
                                 <!-- Room/Suite -->
                                 <figure class="bn-hover bn-hover-jolie bn-hover-overlay mb-0">
                                     <div class="bn-hover-container">
-                                        <img src="public/img/thumbs/5.jpg" srcset="public/img/thumbs/5.jpg 2x" alt="">
+                                        <img src="public/img/thumbs/4.jpg" srcset="public/img/thumbs/4.jpg 2x" alt="">
                                         <span class="bg-banner-overlay"></span>
                                         <span class="price-box">
-                                            <strong class="fw-bold-2"></strong> <span class="fs-18">/ </span>
+                                            <strong class="fw-bold-2"></strong> <span class="fs-18"></span>
                                         </span>
                                         <div class="bn-hover-caption-container">
                                             <div class="bn-hover-caption">
@@ -489,7 +489,7 @@
                                                    &nbsp;
                                                 </p>
                                                 <div class="bn-hover-detail">
-                                                    <a href="single-room-1.html" class="btn btn-lg btn-primary fs-22">
+                                                    <a href="/" class="btn btn-lg btn-primary fs-22">
                                                         <span>Details</span>
                                                         <i class="las la-arrow-right"></i>
                                                     </a>
@@ -518,7 +518,7 @@
                                                    &nbsp;
                                                 </p>
                                                 <div class="bn-hover-detail">
-                                                    <a href="single-room-1.html" class="btn btn-lg btn-primary fs-22">
+                                                    <a href="/" class="btn btn-lg btn-primary fs-22">
                                                         <span>Details</span>
                                                         <i class="las la-arrow-right"></i>
                                                     </a>
@@ -686,19 +686,12 @@
                         <!-- Subscribe & Social -->
                         <div class="footer-widget">
                             <!-- Subscribe -->
-                            <h5 class="text-light">Subscribe</h5>
-                            <div class="subscribe mb-5">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Your Email" id="file1">
-                                    <button class="btn btn-primary" type="button" id="button1">
-                                        <span>Submit</span>
-                                    </button>
-                                </div>
-                            </div>
+                            <h5 class="text-light">Social Media</h5>
+                            
                             <!-- Subscribe -->
                             <div class="footer-social">
                                 <!-- Social -->
-                                <h6 class="fw-normal">Connect social</h6>
+                       
                                 <div class="social-list">
                                     <a href="https://www.facebook.com/upssl.lk" class="btn-social btn-social-simple-gray btn-facebook"><i class="lab la-facebook"></i></a>
             
